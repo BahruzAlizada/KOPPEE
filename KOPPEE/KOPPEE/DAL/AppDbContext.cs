@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using KOPPEE.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace KOPPEE.DAL
 {
@@ -9,5 +10,6 @@ namespace KOPPEE.DAL
             
         }
 
+        public DbSet<Service> Services { get; set; }
     }
 }
