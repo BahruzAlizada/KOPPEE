@@ -12,5 +12,6 @@ namespace KOPPEE.DAL
 
         public DbSet<Service> Services { get; set; }
         public DbSet<About> About { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
     }
 }
