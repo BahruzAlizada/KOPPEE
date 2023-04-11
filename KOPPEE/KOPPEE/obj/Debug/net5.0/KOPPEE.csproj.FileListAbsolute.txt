@@ -153,3 +153,4 @@ C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\runtimes\win-x86\nat
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Shared\Components\Service\Default.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Shared\Components\About\Default.cshtml.g.cs
