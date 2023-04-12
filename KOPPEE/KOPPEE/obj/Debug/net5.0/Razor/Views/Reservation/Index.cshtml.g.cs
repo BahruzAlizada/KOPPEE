@@ -26,8 +26,15 @@ using KOPPEE.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\Views\_ViewImports.cshtml"
+using KOPPEE.ViewsModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae", @"/Views/Reservation/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d0e288acadc630beadac644d58290d355ae1e0d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a77357736ce29e63ec7732ec820b96cb94640ba3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Reservation_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -72,7 +79,7 @@ using KOPPEE.Models;
         <h1 class=""display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase"">Reservation</h1>
         <div class=""d-inline-flex mb-lg-5"">
             <p class=""m-0 text-white"">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae6101", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae6276", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -124,7 +131,7 @@ using KOPPEE.Models;
                     <div class=""text-center p-5"" style=""background: rgba(51, 33, 29, .8);"">
                         <h1 class=""text-white mb-4 mt-5"">Book Your Table</h1>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae9390", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae9565", async() => {
                 WriteLiteral(@"
                             <div class=""form-group"">
                                 <input type=""text"" class=""form-control bg-transparent border-primary p-4"" placeholder=""Name""
@@ -148,7 +155,7 @@ using KOPPEE.Models;
                             <div class=""form-group"">
                                 <select class=""custom-select bg-transparent border-primary px-4"" style=""height: 49px;"">
                                     ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae11362", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae11537", async() => {
                     WriteLiteral("Person");
                 }
                 );
@@ -165,7 +172,7 @@ using KOPPEE.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae12736", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae12911", async() => {
                     WriteLiteral("Person 1");
                 }
                 );
@@ -181,7 +188,7 @@ using KOPPEE.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae13998", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae14173", async() => {
                     WriteLiteral("Person 2");
                 }
                 );
@@ -197,7 +204,7 @@ using KOPPEE.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae15260", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae15435", async() => {
                     WriteLiteral("Person 3");
                 }
                 );
@@ -213,7 +220,7 @@ using KOPPEE.Models;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                                    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae16522", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4749ef0fb8ad6400cd1b4d2f3e860c8cc76e43ae16697", async() => {
                     WriteLiteral("Person 4");
                 }
                 );

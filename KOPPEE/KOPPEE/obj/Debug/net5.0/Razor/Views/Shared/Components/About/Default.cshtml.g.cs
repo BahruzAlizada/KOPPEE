@@ -26,8 +26,15 @@ using KOPPEE.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\Views\_ViewImports.cshtml"
+using KOPPEE.ViewsModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8bfea13b45fc5714ee163e67a011619ae40286af", @"/Views/Shared/Components/About/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d0e288acadc630beadac644d58290d355ae1e0d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a77357736ce29e63ec7732ec820b96cb94640ba3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components_About_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<About>
     #nullable disable
@@ -86,7 +93,7 @@ using KOPPEE.Models;
             BeginWriteAttribute("href", " href=\"", 454, "\"", 461, 0);
             EndWriteAttribute();
             WriteLiteral(" class=\"btn btn-secondary font-weight-bold py-2 px-4 mt-2\">Learn More</a>\r\n        </div>\r\n        <div class=\"col-lg-4 py-5 py-lg-0\" style=\"min-height: 500px;\">\r\n            <div class=\"position-relative h-100\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8bfea13b45fc5714ee163e67a011619ae40286af5467", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8bfea13b45fc5714ee163e67a011619ae40286af5642", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

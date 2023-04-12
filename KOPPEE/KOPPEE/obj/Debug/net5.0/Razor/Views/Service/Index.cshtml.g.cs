@@ -26,8 +26,15 @@ using KOPPEE.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\Views\_ViewImports.cshtml"
+using KOPPEE.ViewsModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d9039134227b9e29c15ee9c298151eafaeff6365", @"/Views/Service/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d0e288acadc630beadac644d58290d355ae1e0d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a77357736ce29e63ec7732ec820b96cb94640ba3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Service_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -65,7 +72,7 @@ using KOPPEE.Models;
         <h1 class=""display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase"">Services</h1>
         <div class=""d-inline-flex mb-lg-5"">
             <p class=""m-0 text-white"">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9039134227b9e29c15ee9c298151eafaeff63654446", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9039134227b9e29c15ee9c298151eafaeff63654621", async() => {
                 WriteLiteral("Home");
             }
             );

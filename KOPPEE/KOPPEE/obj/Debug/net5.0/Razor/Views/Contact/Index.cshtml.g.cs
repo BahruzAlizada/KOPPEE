@@ -26,8 +26,15 @@ using KOPPEE.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\Views\_ViewImports.cshtml"
+using KOPPEE.ViewsModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"080baf135635887e673dc8f44971d0778cc13517", @"/Views/Contact/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d0e288acadc630beadac644d58290d355ae1e0d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a77357736ce29e63ec7732ec820b96cb94640ba3", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Contact_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -70,7 +77,7 @@ using KOPPEE.Models;
         <h1 class=""display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase"">Contact</h1>
         <div class=""d-inline-flex mb-lg-5"">
             <p class=""m-0 text-white"">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "080baf135635887e673dc8f44971d0778cc135175780", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "080baf135635887e673dc8f44971d0778cc135175955", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -128,7 +135,7 @@ using KOPPEE.Models;
             BeginWriteAttribute("allowfullscreen", " allowfullscreen=\"", 2232, "\"", 2250, 0);
             EndWriteAttribute();
             WriteLiteral(" aria-hidden=\"false\" tabindex=\"0\"></iframe>\r\n            </div>\r\n            <div class=\"col-md-6 pb-5\">\r\n                <div class=\"contact-form\">\r\n                    <div id=\"success\"></div>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "080baf135635887e673dc8f44971d0778cc135179456", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "080baf135635887e673dc8f44971d0778cc135179631", async() => {
                 WriteLiteral(@"
                         <div class=""control-group"">
                             <input type=""text"" class=""form-control bg-transparent p-4"" id=""name"" placeholder=""Your Name""
