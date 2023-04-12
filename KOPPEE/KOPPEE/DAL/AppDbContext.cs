@@ -16,5 +16,6 @@ namespace KOPPEE.DAL
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Bio> Bio { get; set; }
+        public DbSet<FeedBack> FeedBacks { get; set; }
     }
 }

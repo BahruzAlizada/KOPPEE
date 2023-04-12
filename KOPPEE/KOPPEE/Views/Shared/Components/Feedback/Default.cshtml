@@ -1,0 +1,15 @@
+﻿@model List<FeedBack>
+
+@foreach(FeedBack feedback in Model)
+{
+    <div class="testimonial-item">
+        <div class="d-flex align-items-center mb-3">
+           @* <img class="img-fluid" src="~/img/" alt="">*@
+            <div class="ml-3">
+                <h4>@feedback.FullName</h4>
+                <i>@feedback.Role</i>
+            </div>
+        </div>
+        <p class="m-0">@feedback.Description</p>
+    </div>
+}

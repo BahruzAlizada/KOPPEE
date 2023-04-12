@@ -1,7 +1,6 @@
 ﻿
  <!-- Carousel Start -->
 <div class="container-fluid p-0 mb-5">
-
 <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
     <div class="carousel-inner">
            @await Component.InvokeAsync("Slider")   
@@ -14,14 +13,14 @@
     </a>
 </div>
 </div>
-
-
 <!-- Carousel End -->
+
 <!-- About Start -->
 <div class="container-fluid py-5">
    @await Component.InvokeAsync("About")
 </div>
 <!-- About End -->
+
 <!-- Service Start -->
 <div class="container-fluid pt-5">
     <div class="container">
@@ -35,6 +34,7 @@
     </div>
 </div>
 <!-- Service End -->
+
 <!-- Offer Start -->
 <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
     <div class="container py-5">
@@ -52,6 +52,7 @@
     </div>
 </div>
 <!-- Offer End -->
+
 <!-- Menu Start -->
 <div class="container-fluid pt-5">
     <div class="container">
@@ -130,6 +131,7 @@
     </div>
 </div>
 <!-- Menu End -->
+
 <!-- Reservation Start -->
 <div class="container-fluid my-5">
     <div class="container">
@@ -195,6 +197,7 @@
     </div>
 </div>
 <!-- Reservation End -->
+
 <!-- Testimonial Start -->
 <div class="container-fluid py-5">
     <div class="container">
@@ -203,46 +206,7 @@
             <h1 class="display-4">Our Clients Say</h1>
         </div>
         <div class="owl-carousel testimonial-carousel">
-            <div class="testimonial-item">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="~/img/testimonial-1.jpg" alt="">
-                    <div class="ml-3">
-                        <h4>Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-                <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-            </div>
-            <div class="testimonial-item">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="~/img/testimonial-2.jpg" alt="">
-                    <div class="ml-3">
-                        <h4>Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-                <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-            </div>
-            <div class="testimonial-item">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="~/img/testimonial-3.jpg" alt="">
-                    <div class="ml-3">
-                        <h4>Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-                <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-            </div>
-            <div class="testimonial-item">
-                <div class="d-flex align-items-center mb-3">
-                    <img class="img-fluid" src="~/img/testimonial-4.jpg" alt="">
-                    <div class="ml-3">
-                        <h4>Client Name</h4>
-                        <i>Profession</i>
-                    </div>
-                </div>
-                <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-            </div>
+           @await Component.InvokeAsync("Feedback")
         </div>
     </div>
 </div>
