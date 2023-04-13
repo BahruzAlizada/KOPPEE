@@ -9,8 +9,8 @@ namespace KOPPEE.Controllers
 	public class MenuController : Controller
 	{
         public IActionResult Index()
-		{ 
-            return View();
+		{
+             return View();
         }
 	}
 }
