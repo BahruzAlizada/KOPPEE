@@ -1,4 +1,5 @@
 ﻿using KOPPEE.DAL;
+using KOPPEE.Models;
 using KOPPEE.ViewsModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,12 +18,8 @@ namespace KOPPEE.Controllers
 
         public async Task<IActionResult> Index()
 		{
-			HomeVM homeVM = new HomeVM
-			{
-				Products = await _db.Products.ToListAsync(),
-				Categories = await _db.Categories.ToListAsync()
-			};
-			return View(homeVM);
+			Offer offer = await _db.Offer.FirstOrDefaultAsync();
+			return View(offer);
 		}
 
 		
