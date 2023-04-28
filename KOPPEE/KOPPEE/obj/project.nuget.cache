@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H3PZSvrGS4oXPL9IneqNxemOdrCsOKENGl1m96SJDOFnplUmTBwgDlWQcWnOZb5qoFulqs0DGPOP0UGMBPYsqA==",
+  "dgSpecHash": "5kFNV6EWKnYCBUPlfV/DRFmY5W3uXVgezIXtR80kThnUfblPL7o7vTd0F3H+idiDF2yZqjb7jo5Xc/FAkL/tpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Esma\\Desktop\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj",
+  "projectFilePath": "C:\\Users\\Esma\\Desktop\\Visual studio c#\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Esma\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Esma\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

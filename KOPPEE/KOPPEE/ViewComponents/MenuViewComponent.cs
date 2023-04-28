@@ -3,6 +3,7 @@ using KOPPEE.ViewsModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace KOPPEE.ViewComponents
@@ -21,7 +22,7 @@ namespace KOPPEE.ViewComponents
             HomeVM homeVM = new HomeVM
             {
                 Categories =  await _db.Categories.ToListAsync(),
-                Products = await _db.Products.ToListAsync()
+                Products = await _db.Products.Where(x=>!x.IsDeactive).OrderByDescending(x=>x.Id).ToListAsync()
             };
 
             return View(homeVM);

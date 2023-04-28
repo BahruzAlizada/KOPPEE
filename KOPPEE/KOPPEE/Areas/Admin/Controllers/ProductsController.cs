@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace KOPPEE.Areas.Admin.Controllers
@@ -75,5 +76,101 @@ namespace KOPPEE.Areas.Admin.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            ViewBag.Categories = await _db.Categories.ToListAsync();
+
+            if (id == null)
+                return NotFound();
+            Product dbproduct = await _db.Products.FirstOrDefaultAsync(x => x.Id == id);
+            if (dbproduct == null)
+                return BadRequest();
+
+            return View(dbproduct);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public async Task<IActionResult> Update(int? id, Product product,int categoryId)
+        {
+            ViewBag.Categories = await _db.Categories.ToListAsync();
+
+            if (id == null)
+                return NotFound();
+            Product dbproduct = await _db.Products.FirstOrDefaultAsync(x => x.Id == id);
+            if (dbproduct == null)
+                return BadRequest();
+
+            bool isExist = await _db.Products.AnyAsync(x => x.Name == product.Name && x.Id != id);
+            if (isExist)
+            {
+                ModelState.AddModelError("Name", "This Name already is exist!");
+                return View();
+            }
+
+            #region Photo
+            if(product.Photo != null)
+            {
+                if (!product.Photo.IsImage())
+                {
+                    ModelState.AddModelError("Photo", "Select image type");
+                    return View();
+                }
+
+                if (product.Photo.IsOlder216Kb())
+                {
+                    ModelState.AddModelError("Photo", "Max 216Kb");
+                    return View();
+                }
+
+                string folder = Path.Combine(_env.WebRootPath, "img");
+                product.Image = await product.Photo.SaveFileAsync(folder);
+                string path = Path.Combine(_env.WebRootPath, dbproduct.Image);
+                if (System.IO.File.Exists(path))
+                    System.IO.File.Delete(path);
+                dbproduct.Image = product.Image;
+            }
+
+            #endregion
+            dbproduct.Name = product.Name;
+            dbproduct.Price=product.Price;
+            dbproduct.Description = product.Description;
+            product.CategoryId = categoryId;
+
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Detail(int? id)
+        {
+            if (id == null)
+                return NotFound();
+            Product dbproduct = await _db.Products.FirstOrDefaultAsync(x => x.Id == id);
+            if (dbproduct == null)
+                return BadRequest();
+
+            return View(dbproduct);
+        }
+
+        public async Task<IActionResult> Activity(int? id)
+        {
+            if (id == null)
+                return NotFound();
+            Product dbproduct = await _db.Products.FirstOrDefaultAsync(x => x.Id == id);
+            if (dbproduct == null)
+                return BadRequest();
+
+            if (dbproduct.IsDeactive)
+                dbproduct.IsDeactive = false;
+            else
+                dbproduct.IsDeactive = true;
+
+            await _db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Esma\\Desktop\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj": {}
+    "C:\\Users\\Esma\\Desktop\\Visual studio c#\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Esma\\Desktop\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj": {
+    "C:\\Users\\Esma\\Desktop\\Visual studio c#\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Esma\\Desktop\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj",
+        "projectUniqueName": "C:\\Users\\Esma\\Desktop\\Visual studio c#\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj",
         "projectName": "KOPPEE",
-        "projectPath": "C:\\Users\\Esma\\Desktop\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj",
+        "projectPath": "C:\\Users\\Esma\\Desktop\\Visual studio c#\\KOPPEE\\KOPPEE\\KOPPEE\\KOPPEE.csproj",
         "packagesPath": "C:\\Users\\Esma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Esma\\Desktop\\KOPPEE\\KOPPEE\\KOPPEE\\obj\\",
+        "outputPath": "C:\\Users\\Esma\\Desktop\\Visual studio c#\\KOPPEE\\KOPPEE\\KOPPEE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Esma\\AppData\\Roaming\\NuGet\\NuGet.Config",
