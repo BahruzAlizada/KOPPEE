@@ -345,3 +345,6 @@ C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\KOP
 C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\ref\KOPPEE.dll
 C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Products\Update.cshtml.g.cs
 C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Products\Detail.cshtml.g.cs
+C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Offers\Index.cshtml.g.cs
+C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Offers\Detail.cshtml.g.cs
+C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Offers\Update.cshtml.g.cs
