@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace KOPPEE.ViewComponents
@@ -19,7 +20,7 @@ namespace KOPPEE.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            List<FeedBack> feedbacks = await _db.FeedBacks.ToListAsync();
+            List<FeedBack> feedbacks = await _db.FeedBacks.Where(x=>!x.IsDeactive).OrderByDescending(x=>x.Id).Take(5).ToListAsync();
 
             return View(feedbacks);
         }

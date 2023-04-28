@@ -348,3 +348,7 @@ C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Raz
 C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Offers\Index.cshtml.g.cs
 C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Offers\Detail.cshtml.g.cs
 C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Offers\Update.cshtml.g.cs
+C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Feedbacks\Index.cshtml.g.cs
+C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Feedbacks\Create.cshtml.g.cs
+C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Feedbacks\Update.cshtml.g.cs
+C:\Users\Esma\Desktop\Visual studio c#\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Feedbacks\Detail.cshtml.g.cs
