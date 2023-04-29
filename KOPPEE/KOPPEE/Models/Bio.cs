@@ -7,5 +7,6 @@
         public string FooterAddress { get; set; }
         public string FooterNumber { get; set; }
         public string FooterEmail { get; set; }
+
     }
 }

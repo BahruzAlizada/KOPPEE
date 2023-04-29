@@ -1,0 +1,53 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+
+@model Bio
+
+<div class="row">
+    <div class="col-8">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Update Bios</h5>
+
+            </div>
+            <div class="card-body">
+                <form method="post">
+
+
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="HeaderLogoName" class="form-label">Header Logo</label>
+                        <input asp-for="HeaderLogoName" class="form-control" />
+                        <span class="text-danger" asp-validation-for="HeaderLogoName"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="FooterAddress" class="form-label">Footer Address</label>
+                        <input asp-for="FooterAddress" class="form-control" />
+                        <span class="text-danger" asp-validation-for="FooterAddress"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="FooterEmail" class="form-label">Footer Email</label>
+                        <input asp-for="FooterEmail" class="form-control" />
+                        <span class="text-danger" asp-validation-for="FooterEmail"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="FooterNumber" class="form-label">Footer Number</label>
+                        <input asp-for="FooterNumber" class="form-control" />
+                        <span class="text-danger" asp-validation-for="FooterNumber"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a class="btn btn-secondary" asp-action="Index">Go Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
