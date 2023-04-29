@@ -2,7 +2,11 @@
     ViewBag.Title = "Reservation";
 }
 
-    <!-- Page Header Start -->
+@{
+    Layout = "_Layout";
+}
+
+<!-- Page Header Start -->
 <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
     <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
         <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Reservation</h1>
@@ -29,11 +33,11 @@
                             Lorem justo clita erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
                             ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea
                         </p>
-                        <ul class="list-inline text-white m-0">
+@*                        <ul class="list-inline text-white m-0">
                             <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
                             <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
                             <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</li>
-                        </ul>
+                        </ul>*@
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -58,7 +62,7 @@
                                     <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker" />
                                 </div>
                             </div>
-                            <div class="form-group">
+                          @*  <div class="form-group">
                                 <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;">
                                     <option selected>Person</option>
                                     <option value="1">Person 1</option>
@@ -66,7 +70,7 @@
                                     <option value="3">Person 3</option>
                                     <option value="3">Person 4</option>
                                 </select>
-                            </div>
+                            </div>*@
 
                             <div>
                                 <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Book Now</button>

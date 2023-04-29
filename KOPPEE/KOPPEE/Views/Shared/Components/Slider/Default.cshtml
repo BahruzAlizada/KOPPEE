@@ -1,5 +1,6 @@
 ﻿@model List<Slider>
 
+
 @foreach (Slider slider in Model)
 {
     <div class="carousel-item active">
@@ -8,7 +9,7 @@
             <h2 class="text-primary font-weight-medium m-0">@slider.Description</h2>
             <h1 class="display-1 text-white m-0">@slider.Title</h1>
             <h2 class="text-white m-0">* Since 1950 *</h2>
-            <a class="booktable" asp-controller="Reservation" asp-action="Index" style="text-decoration:none;background-color:black;color:white; margin-top:10px;border-radius:50px;padding:10px 20px 10px 20px;">Book a Table</a>
+            <a class="booktable" asp-controller="Home" asp-action="Create" style="text-decoration:none;background-color:black;color:white; margin-top:10px;border-radius:50px;padding:15px 30px; font-size:22px;">Book a Table</a>
         </div>
     </div>
 }

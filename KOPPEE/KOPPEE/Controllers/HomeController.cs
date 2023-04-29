@@ -22,7 +22,10 @@ namespace KOPPEE.Controllers
 			return View(offer);
 		}
 
-		
+		public async Task<IActionResult> Create()
+		{
+			return View();
+		}
 
 		
 		public IActionResult Error()
