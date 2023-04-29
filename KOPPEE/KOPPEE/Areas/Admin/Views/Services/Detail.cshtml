@@ -1,0 +1,11 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+
+@model Service
+
+<img src="~/img/@Model.Image" style="height:300px;width:300px;" />
+<h2>@Model.Name</h2>
+<p>@Model.Description</p>
+
+<a class="btn btn-secondary text-white" asp-action="Index">Go Back</a>
