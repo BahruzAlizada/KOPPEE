@@ -1,0 +1,15 @@
+﻿@{
+	Layout = "_AdminLayout";
+}
+
+@model About
+
+<h2>Title - @Model.Title</h2><br />
+<p>SubTitle Story - @Model.SubTitleStory</p>
+<p>Story Description - @Model.StoryDescription</p><br />
+<p>Vision Description - @Model.VisionDescription</p>
+<p>Vision goal 1 - @Model.VisionGoalOne</p>
+<p>Vision goal 2 - @Model.VisionGoalTwo</p>
+<p>Vision goal 3 - @Model.VisionGoalThree</p>
+
+<a class="btn btn-secondary" asp-action="Index">Go Back</a>

@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+
+@model About
+
+<div class="row">
+    <div class="col-8">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Update About</h5>
+
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data">
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="Photo" class="form-label">Photo</label>
+                        <input asp-for="Photo" accept="image/*" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Photo"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="Title" class="form-label">Title</label>
+                        <input asp-for="Title" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Title"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="SubTitleStory" class="form-label">SubTitle Story</label>
+                        <input asp-for="SubTitleStory" class="form-control" />
+                        <span class="text-danger" asp-validation-for="SubTitleStory"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="StoryDescription" class="form-label">Story Description</label>
+                        <textarea asp-for="StoryDescription" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="StoryDescription"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="VisionDescription" class="form-label">Story Vision Description</label>
+                        <textarea asp-for="VisionDescription" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="VisionDescription"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="VisionGoalOne" class="form-label">Vision Goal One</label>
+                        <textarea asp-for="VisionGoalOne" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="VisionGoalOne"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="VisionGoalTwo" class="form-label">Vision Goal Two</label>
+                        <textarea asp-for="VisionGoalTwo" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="VisionGoalTwo"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="VisionGoalThree" class="form-label">Vision Goal Three</label>
+                        <textarea asp-for="VisionGoalThree" class="form-control"></textarea>
+                        <span class="text-danger" asp-validation-for="VisionGoalThree"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a class="btn btn-secondary" asp-action="Index">Go Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

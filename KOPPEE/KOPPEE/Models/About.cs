@@ -1,4 +1,7 @@
-﻿namespace KOPPEE.Models
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace KOPPEE.Models
 {
     public class About
     {
@@ -11,5 +14,7 @@
         public string VisionGoalTwo { get; set; }
         public string VisionGoalThree { get; set; }
         public string Image { get; set; }
+        [NotMapped]
+        public IFormFile Photo { get; set; }
     }
 }

@@ -134,6 +134,7 @@ namespace KOPPEE.Areas.Admin.Controllers
             }
 
             #endregion
+
             dbproduct.Name = product.Name;
             dbproduct.Price=product.Price;
             dbproduct.Description = product.Description;

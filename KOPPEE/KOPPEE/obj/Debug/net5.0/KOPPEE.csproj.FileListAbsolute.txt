@@ -367,3 +367,6 @@ C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Vi
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Bios\Detail.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Bios\Update.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Index.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Detail.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Update.cshtml.g.cs
