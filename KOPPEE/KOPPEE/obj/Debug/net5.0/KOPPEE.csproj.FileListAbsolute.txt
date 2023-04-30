@@ -370,3 +370,10 @@ C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Home\Cre
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Index.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Detail.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Update.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Register.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Login.cshtml.g.cs
