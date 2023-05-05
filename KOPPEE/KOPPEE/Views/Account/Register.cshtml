@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Register";
+}
+
+@model RegisterVM
+<!-- Page Header Start -->
+<div class="container-fluid page-header mb-5 position-relative overlay-bottom">
+    <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+        <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Register</h1>
+        <div class="d-inline-flex mb-lg-5">
+            <p class="m-0 text-white"><a class="text-white" asp-controller="Home" asp-action="Index">Home</a></p>
+            <p class="m-0 text-white px-2">/</p>
+            <p class="m-0 text-white">Account</p>
+        </div>
+    </div>
+</div>
+<!-- Page Header End -->
+
+<div style="margin-top:50px;" class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1 style="text-align:center">Sig In</h1>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </div>
+        <div class="col-md-8">
+            <form method="post">
+
+                <div class="form-outline mb-4 form-group">
+                    <label asp-for="Name" class="form-label">Name</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+
+                <div class="form-outline mb-4 form-group">
+                    <label asp-for="Surname" class="form-label">Surname</label>
+                    <input asp-for="Surname" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Surname"></span>
+                </div>
+
+                <div class="form-outline mb-4 form-group">
+                    <label asp-for="UserName" class="form-label">Username</label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span class="text-danger" asp-validation-for="UserName"></span>
+                </div>
+
+                <div class="form-outline mb-4 form-group">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Email"></span>
+                </div>
+
+                <div class="form-outline mb-4 form-group">
+                    <label asp-for="Password" class="form-label">Password</label>
+                    <input asp-for="Password" class="form-control" />
+                    <span class="text-danger" asp-validation-for="Password"></span>
+                </div>
+
+                <div class="form-outline mb-4 form-group">
+                    <label asp-for="CheckPassword" class="form-label">Password</label>
+                    <input asp-for="CheckPassword" class="form-control" />
+                    <span class="text-danger" asp-validation-for="CheckPassword"></span>
+                </div>
+
+
+
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4">
+                    <div class="col d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                            <input class="form-check-input" asp-for="IsRemember" type="checkbox" checked />
+                            <label class="form-check-label"> Remember me </label>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <!-- Simple link -->
+                        <a href="#!">Forgot password?</a>
+                    </div>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Do you have an account ? <a asp-action="Login">Login</a></p>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Script{
+    <partial name="_ValidationScriptsPartial" />
+}

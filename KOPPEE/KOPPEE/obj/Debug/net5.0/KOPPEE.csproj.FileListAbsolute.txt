@@ -378,3 +378,5 @@ C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\refint\KOPPEE.dll
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\KOPPEE.pdb
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\KOPPEE.genruntimeconfig.cache
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\ref\KOPPEE.dll
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs

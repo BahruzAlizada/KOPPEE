@@ -22,5 +22,6 @@ namespace KOPPEE.ViewsModel
         [Compare("Password")]
         public string CheckPassword { get; set; }
         public bool IsRemember { get; set; }
+        
     }
 }
