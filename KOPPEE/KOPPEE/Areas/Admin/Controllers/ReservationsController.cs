@@ -1,5 +1,6 @@
 ﻿using KOPPEE.DAL;
 using KOPPEE.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 namespace KOPPEE.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ReservationsController : Controller
     {
         private readonly AppDbContext _db;

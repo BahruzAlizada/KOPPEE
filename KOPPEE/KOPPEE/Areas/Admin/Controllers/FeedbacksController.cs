@@ -1,5 +1,7 @@
 ﻿using KOPPEE.DAL;
+using KOPPEE.Helper;
 using KOPPEE.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +11,8 @@ using System.Threading.Tasks;
 namespace KOPPEE.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class FeedbacksController : Controller
+    [Authorize(Roles = "Admin")]
+    public class FeedbacksController : Controller
 	{
 		private readonly AppDbContext _db;
 

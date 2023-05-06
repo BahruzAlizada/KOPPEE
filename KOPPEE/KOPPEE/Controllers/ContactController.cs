@@ -1,12 +1,25 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using KOPPEE.DAL;
+using KOPPEE.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace KOPPEE.Controllers
 {
 	public class ContactController : Controller
 	{
-		public IActionResult Index()
+		private readonly AppDbContext _db;
+
+        public ContactController(AppDbContext db)
+        {
+			_db = db;
+        }
+
+        public async Task<IActionResult> Index()
 		{
-			return View();
+			Bio bio = await _db.Bio.FirstOrDefaultAsync();
+			
+			return View(bio);
 		}
 	}
 }

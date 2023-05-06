@@ -322,8 +322,6 @@ C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\KOPPEE.RazorCoreGene
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Detail.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Index.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Abouts\Update.cshtml.g.cs
-C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Login.cshtml.g.cs
-C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Register.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Bios\Detail.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Bios\Index.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Bios\Update.cshtml.g.cs
@@ -380,3 +378,7 @@ C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\KOPPEE.genruntimecon
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\ref\KOPPEE.dll
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Index.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Create.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Update.cshtml.g.cs
+C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\ResetPassword.cshtml.g.cs

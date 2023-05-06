@@ -1,6 +1,7 @@
 ﻿using KOPPEE.DAL;
 using KOPPEE.Helper;
 using KOPPEE.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +12,8 @@ using System.Threading.Tasks;
 namespace KOPPEE.Areas.Admin.Controllers
 {
 	[Area("Admin")]
-	public class ServicesController : Controller
+    [Authorize(Roles = "Admin")]
+    public class ServicesController : Controller
 	{
 		private readonly AppDbContext _db;
 		private readonly IWebHostEnvironment _env;

@@ -1,10 +1,12 @@
 ﻿using KOPPEE.DAL;
 using KOPPEE.Helper;
 using KOPPEE.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,6 +14,7 @@ using System.Threading.Tasks;
 namespace KOPPEE.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class ProductsController : Controller
     {
         private readonly AppDbContext _db;
