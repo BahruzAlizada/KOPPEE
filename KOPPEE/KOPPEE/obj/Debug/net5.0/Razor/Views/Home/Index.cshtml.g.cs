@@ -33,8 +33,15 @@ using KOPPEE.ViewsModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\Views\_ViewImports.cshtml"
+using KOPPEE.ViewsModel.FooterVM;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b56c05b3f244d885e391a92b8f306f00bdd0505e", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a77357736ce29e63ec7732ec820b96cb94640ba3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5367703e2643fd11b3d670a253d965619a30aae7", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Offer>
     #nullable disable
@@ -116,7 +123,7 @@ using KOPPEE.ViewsModel;
 #line hidden
 #nullable disable
             WriteLiteral("</h2>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e6603", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e6787", async() => {
                 WriteLiteral("Logout");
             }
             );
@@ -143,7 +150,7 @@ else
 #line default
 #line hidden
 #nullable disable
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e8124", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e8308", async() => {
                 WriteLiteral("Login");
             }
             );
@@ -161,7 +168,7 @@ else
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e9484", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e9668", async() => {
                 WriteLiteral("Register");
             }
             );
@@ -248,7 +255,7 @@ Write(await Component.InvokeAsync("About"));
 #line hidden
 #nullable disable
             WriteLiteral("</h4>\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e13113", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b56c05b3f244d885e391a92b8f306f00bdd0505e13297", async() => {
                 WriteLiteral(@"
             <div class=""input-group"">
                 <input type=""text"" class=""form-control p-4"" placeholder=""Your Email"" style=""height: 60px;"">

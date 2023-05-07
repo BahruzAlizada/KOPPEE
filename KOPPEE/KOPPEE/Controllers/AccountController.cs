@@ -108,6 +108,13 @@ namespace KOPPEE.Controllers
         }
         #endregion
 
+        #region ForgotPassword
+        public async Task<IActionResult> ForgotPassword(string id)
+        {
+            return View();
+        }
+        #endregion
+
         #region CreateRoles
         //public async Task Roles()
         //{

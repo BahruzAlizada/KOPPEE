@@ -20,5 +20,6 @@ namespace KOPPEE.DAL
         public DbSet<FeedBack> FeedBacks { get; set; }
         public DbSet<Offer> Offer { get; set; }
         public DbSet<Reservation> Reservationss { get; set; }
+        public DbSet<SocialMedia> SocialMedia { get; set; }
     }
 }

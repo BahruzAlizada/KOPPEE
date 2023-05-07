@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+
+@model SocialMedia
+
+<div class="row">
+    <div class="col-8">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Update Social Media</h5>
+
+            </div>
+            <div class="card-body">
+                <form method="post">
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="Instagram" class="form-label">Instagram</label>
+                        <input asp-for="Instagram" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Instagram"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="Facebook" class="form-label">Facebook</label>
+                        <input asp-for="Facebook" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Facebook"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="Twitter" class="form-label">Twitter</label>
+                        <input asp-for="Twitter" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Twitter"></span>
+                    </div>
+
+                    <div class="mb-3 form-group">
+                        <label asp-for="Linkedin" class="form-label">linkedin</label>
+                        <input asp-for="Linkedin" class="form-control" />
+                        <span class="text-danger" asp-validation-for="Linkedin"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a class="btn btn-secondary" asp-action="Index">Go Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

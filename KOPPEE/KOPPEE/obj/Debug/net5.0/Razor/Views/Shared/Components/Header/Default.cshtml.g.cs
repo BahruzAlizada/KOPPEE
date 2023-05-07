@@ -33,8 +33,15 @@ using KOPPEE.ViewsModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\Views\_ViewImports.cshtml"
+using KOPPEE.ViewsModel.FooterVM;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b950ca9503aa1840125028d070159bc9e5e15d89", @"/Views/Shared/Components/Header/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a77357736ce29e63ec7732ec820b96cb94640ba3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5367703e2643fd11b3d670a253d965619a30aae7", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Components_Header_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Bio>
     #nullable disable
@@ -72,7 +79,7 @@ using KOPPEE.ViewsModel;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("\r\n<div class=\"container-fluid p-0 nav-bar\">\r\n    <nav class=\"navbar navbar-expand-lg bg-none navbar-dark py-3\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d896017", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d896201", async() => {
                 WriteLiteral("\r\n            <h1 class=\"m-0 display-4 text-uppercase text-white\">");
 #nullable restore
 #line 6 "C:\Users\Esma\Desktop\KOPPEE\KOPPEE\KOPPEE\Views\Shared\Components\Header\Default.cshtml"
@@ -105,7 +112,7 @@ using KOPPEE.ViewsModel;
         <div class=""collapse navbar-collapse justify-content-between"" id=""navbarCollapse"">
             <div class=""navbar-nav ml-auto p-4"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d898190", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d898374", async() => {
                 WriteLiteral("Home");
             }
             );
@@ -124,7 +131,7 @@ using KOPPEE.ViewsModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d899648", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d899832", async() => {
                 WriteLiteral("About");
             }
             );
@@ -143,7 +150,7 @@ using KOPPEE.ViewsModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d8911107", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d8911291", async() => {
                 WriteLiteral("Menu");
             }
             );
@@ -162,7 +169,7 @@ using KOPPEE.ViewsModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d8912566", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d8912750", async() => {
                 WriteLiteral("Service");
             }
             );
@@ -181,7 +188,7 @@ using KOPPEE.ViewsModel;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d8914028", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b950ca9503aa1840125028d070159bc9e5e15d8914212", async() => {
                 WriteLiteral("Contact");
             }
             );

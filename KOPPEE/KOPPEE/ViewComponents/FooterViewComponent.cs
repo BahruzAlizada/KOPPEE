@@ -1,5 +1,6 @@
 ﻿using KOPPEE.DAL;
 using KOPPEE.Models;
+using KOPPEE.ViewsModel.FooterVM;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
@@ -17,9 +18,13 @@ namespace KOPPEE.ViewComponents
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            Bio bio = await _db.Bio.FirstOrDefaultAsync();
+            FooterVM footerVM = new FooterVM
+            {
+                Bio = await _db.Bio.FirstOrDefaultAsync(),
+                SocialMedia = await _db.SocialMedia.FirstOrDefaultAsync()
+            };
 
-            return View(bio);
+            return View(footerVM);
         }
     }
 }
